@@ -12,7 +12,7 @@ const toRate = document.querySelector(".to-rate");
 let fromCurrency = fromList.querySelector(".active").textContent;
 let toCurrency = toList.querySelector(".active").textContent;
 
-const API_KEY = "997195a7ed64005eed607414ab302e36";
+const API_KEY = "9938f3915e64a33503e9fc167a3baa6a79";
 
 function getRates(from, to) {
     fetch(`https://api.exchangerate.host/convert?from=${from}&to=${to}&amount=1&access_key=${API_KEY}`)
