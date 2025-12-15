@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <img src="images/Asset 1@3x 1.png" alt="Bank logo" class="logo">
+    <nav class="menu">
+        <span>BANK</span>
+        <span>BUSINESS</span>
+        <span>INVESTMENTS</span>
+        <span>INSURANCE</span>
+        <span>MOBILE</span>
+        <span>JOURNEYS</span>
+        <span>ENTERTAINMENT</span>
+    </nav>
+    <button class="login-btn">LOG IN / SIGN IN</button>
+</header>
+
+<main class="wrapper">
+    <h1>Online currency converter</h1>
+
+    <section class="converter">
+        <!-- FROM -->
+        <div class="panel from-panel">
+            <p>You have</p>
+
+            <div class="currency-list from-currencies">
+                <div class="currency">RUB</div>
+                <div class="currency active">USD</div>
+                <div class="currency">EUR</div>
+                <div class="currency">GBP</div>
+            </div>
+
+            <div class="amount-box">
+                <input type="number" class="from-input">
+                <p class="rate-text from-rate"></p>
+            </div>
+        </div>
+
+        <!-- TO -->
+        <div class="panel to-panel">
+            <p>You want to receive</p>
+
+            <div class="currency-list to-currencies">
+                <div class="currency active">RUB</div>
+                <div class="currency">USD</div>
+                <div class="currency">EUR</div>
+                <div class="currency">GBP</div>
+            </div>
+
+            <div class="amount-box">
+                <input type="number" class="to-input">
+                <p class="rate-text to-rate"></p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

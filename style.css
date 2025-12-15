@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: #F5F5F6;
+    height: 50px;
+    padding: 0 100px;
+}
+
+.logo {
+    margin-right: 80px;
+}
+
+.menu span {
+    margin-right: 40px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.login-btn {
+    margin-left: auto;
+    height: 33px;
+    padding: 0 20px;
+    background: white;
+    border: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 56px;
+    width: 650px;
+}
+
+.converter {
+    display: flex;
+    gap: 120px;
+    margin-top: 60px;
+}
+
+.panel {
+    width: 300px;
+}
+
+.currency-list {
+    display: flex;
+    margin: 15px 0;
+}
+
+.currency {
+    width: 62px;
+    height: 28px;
+    border: 1px solid #C6C6C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+    color: #9F9F9F;
+}
+
+.currency.active {
+    background: #833AE0;
+    color: white;
+}
+
+.amount-box {
+    border: 1px solid #E5E5E5;
+    height: 102px;
+}
+
+.amount-box input {
+    width: 100%;
+    font-size: 36px;
+    border: none;
+    padding: 10px;
+}
+
+.amount-box input:focus {
+    outline: none;
+}
+
+.rate-text {
+    font-size: 12px;
+    color: #C6C6C6;
+    margin-left: 10px;
+}
